@@ -16,22 +16,27 @@ The designs were created to the following widths:
 - Green teal: hsl(166, 100%, 37%)
 - Cobalt blue: hsl(234, 85%, 45%)
 
-## Gradients
+### Other Colors
 
-- Light slate blue (background): hsl(252, 100%, 67%)
-- Light royal blue (background): hsl(241, 81%, 54%)
+    --White: hsl(0, 0%, 100%); /* 76 e background*/
+    --cor01: hsl(248, 93%, 61%); /* top color*/
+    --cor02: hsl(250, 70%, 51%); /* circle color*/
+    --cor03: hsl(253, 100%, 89%); /* your result color*/
+    --cor04: hsl(245, 100%, 75%); /* of 100 color*/ 
+    --cor05: hsl(210, 100%, 99%); /* great color*/
+    --cor06: hsl(240, 100%, 88%); /* paragraph color*/
+    --cor07: hsl(237, 17%, 23%); /* summary color*/
+    
+   
+    --cor08: hsl(6, 100%, 98%); /* reaction background*/
+    --cor09: hsl(42, 100%, 97%); /* memory background*/
+    --cor10: hsl(173, 53%, 97%); /* verbal background */
+    --cor11: hsl(240, 71%, 97%); /* visual background */
 
-- Violet blue (circle): hsla(256, 72%, 46%, 1)
-- Persian blue (circle): hsla(241, 72%, 46%, 0)
-
-
-
-### Neutral
-
-- White: hsl(0, 0%, 100%)
-- Pale blue: hsl(221, 100%, 96%)
-- Light lavender: hsl(241, 100%, 89%)
-- Dark gray blue: hsl(224, 30%, 27%)
+    --cor12: hsl(293, 4%, 58%); /* max_result */
+    --cor13: hsl(233, 13%, 26%); /* min_result */
+    --cor14: hsl(224, 30%, 27%); /* button */
+    --cor15: hwb(245 13% 39%); /* hover */
 
 ### Notes
 

@@ -130,6 +130,7 @@ body, html {
 }
 
 .principal {
+    display: ;
     width: 12rem;
     margin: 21px;  
     place-content: center;
@@ -145,7 +146,7 @@ body, html {
 }
 
 .reaction {
-    background-color: orange; /* --cor08 */
+    background-color:  var(--cor08); /* --cor08 */
     color: var(--Light-red);
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 500;
@@ -156,11 +157,14 @@ body, html {
     border-radius: 10px;
     margin-top: 15px;
     
-    
+}
+
+.reac {
+    margin-left: 2px;
 }
 
 .memory {
-    background-color: #f1d0cc; /* --cor09 */
+    background-color: var(--cor09); /* --cor09 */
     color: var(--Orangey-yellow);
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 500;
@@ -172,8 +176,12 @@ body, html {
     margin-top: 15px;
 }
 
+.memo {
+    margin-left: 2px;
+}
+
 .verbal {
-    background-color: #add4d0; /* --cor10 */
+    background-color: var(--cor10); /* --cor10 */
     color: var(--Green-teal);
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 500;
@@ -185,8 +193,14 @@ body, html {
     border-radius: 10px;
 }
 
+.verb {
+    margin-left: 2px;
+
+}
+
+
 .visual {
-    background-color: #bebed4; /* --cor11 */
+    background-color: var(--cor11); /* --cor11 */
     color: var(--Cobalt-blue);
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 500;
@@ -199,19 +213,32 @@ body, html {
 
 }
 
+.visu {
+    margin-left: 2px;
+}
+
+.score {
+    width: 59%;
+    padding-right: 5px;
+}
+
+span {
+    margin-left: 60px;
+    
+}
+
+img {
+    margin-left: 5px;
+}
+
 .your_result {
     color: var(--cor13);
-    font-weight: 700;
-    
-    
-    
+    font-weight: 700; 
 }
 
 .max_result {
     color: var(--cor12);
     font-weight: 700;
-    
-    
 }
 
 .button {
@@ -246,5 +273,5 @@ button:hover{
         width: 50%;
     }
 
-    .
+   
 }
